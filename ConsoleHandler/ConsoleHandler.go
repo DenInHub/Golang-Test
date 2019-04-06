@@ -25,10 +25,10 @@ func main() {
 		os.Exit(1)
 	}
 	sliceOfPoint.Sort()
-	saveResults(sliceOfPoint.ToString(), pathToOtputFile)
+	SaveResults(sliceOfPoint.ToString(), pathToOtputFile)
 }
 
-func saveResults(data string, pathToFile string) {
+func SaveResults(data string, pathToFile string) {
 	file, err := os.Create(pathToFile)
 	if err != nil {
 		log.Fatal(err)

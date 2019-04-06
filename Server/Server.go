@@ -8,10 +8,12 @@ import (
 	dh "../dataHandler"
 )
 
+const address = ":80"
+
 func main() {
 
 	http.HandleFunc("/", HomeHandle)
-	http.ListenAndServe(":80", nil)
+	http.ListenAndServe(address, nil)
 }
 
 func HomeHandle(w http.ResponseWriter, r *http.Request) {
