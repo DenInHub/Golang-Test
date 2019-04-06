@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	dh "../DataHandler"
+	dh "../dataHandler"
 )
 
 func main() {

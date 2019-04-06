@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	dh "../DataHandler"
+	dh "../dataHandler"
 )
 
 var pathToInputFile string = "../input.txt"
